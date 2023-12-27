@@ -5,7 +5,7 @@
 #
 Name     : pypi-mkdocs_autorefs
 Version  : 0.5.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/0a/05/00bb9981e8e9ea4327197180c96953a6818ab1001e91beac6c192ad45cb8/mkdocs_autorefs-0.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0a/05/00bb9981e8e9ea4327197180c96953a6818ab1001e91beac6c192ad45cb8/mkdocs_autorefs-0.5.0.tar.gz
 Summary  : Automatically link across pages in MkDocs.
