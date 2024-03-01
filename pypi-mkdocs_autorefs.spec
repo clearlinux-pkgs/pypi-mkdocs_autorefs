@@ -6,10 +6,10 @@
 # autospec commit: e738c51
 #
 Name     : pypi-mkdocs_autorefs
-Version  : 1.0.0
-Release  : 5
-URL      : https://files.pythonhosted.org/packages/c4/9d/a2d59c5b6cdec79b5608263f43a6d49b4d6822926aae4693bf90d50247cd/mkdocs_autorefs-1.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c4/9d/a2d59c5b6cdec79b5608263f43a6d49b4d6822926aae4693bf90d50247cd/mkdocs_autorefs-1.0.0.tar.gz
+Version  : 1.0.1
+Release  : 6
+URL      : https://files.pythonhosted.org/packages/ce/75/0ced93354fd9df40531c548f07d6462912eea9519e8cd78a8e6b42d73c4a/mkdocs_autorefs-1.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ce/75/0ced93354fd9df40531c548f07d6462912eea9519e8cd78a8e6b42d73c4a/mkdocs_autorefs-1.0.1.tar.gz
 Summary  : Automatically link across pages in MkDocs.
 Group    : Development/Tools
 License  : ISC
@@ -62,10 +62,10 @@ python3 components for the pypi-mkdocs_autorefs package.
 
 
 %prep
-%setup -q -n mkdocs_autorefs-1.0.0
-cd %{_builddir}/mkdocs_autorefs-1.0.0
+%setup -q -n mkdocs_autorefs-1.0.1
+cd %{_builddir}/mkdocs_autorefs-1.0.1
 pushd ..
-cp -a mkdocs_autorefs-1.0.0 buildavx2
+cp -a mkdocs_autorefs-1.0.1 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1709047599
+export SOURCE_DATE_EPOCH=1709325112
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

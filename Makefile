@@ -1,5 +1,5 @@
 PKG_NAME := pypi-mkdocs_autorefs
-URL = https://files.pythonhosted.org/packages/c4/9d/a2d59c5b6cdec79b5608263f43a6d49b4d6822926aae4693bf90d50247cd/mkdocs_autorefs-1.0.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ce/75/0ced93354fd9df40531c548f07d6462912eea9519e8cd78a8e6b42d73c4a/mkdocs_autorefs-1.0.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
