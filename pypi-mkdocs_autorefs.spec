@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-mkdocs_autorefs
-Version  : 1.1.0
-Release  : 7
-URL      : https://files.pythonhosted.org/packages/47/24/7d09b72b470d5dd33ed0c6722c7038ece494ab7dc5e72adbfeaf945276f6/mkdocs_autorefs-1.1.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/47/24/7d09b72b470d5dd33ed0c6722c7038ece494ab7dc5e72adbfeaf945276f6/mkdocs_autorefs-1.1.0.tar.gz
+Version  : 1.2.0
+Release  : 8
+URL      : https://files.pythonhosted.org/packages/fb/ae/0f1154c614d6a8b8a36fff084e5b82af3a15f7d2060cf0dcdb1c53297a71/mkdocs_autorefs-1.2.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/fb/ae/0f1154c614d6a8b8a36fff084e5b82af3a15f7d2060cf0dcdb1c53297a71/mkdocs_autorefs-1.2.0.tar.gz
 Summary  : Automatically link across pages in MkDocs.
 Group    : Development/Tools
 License  : ISC
@@ -29,7 +29,7 @@ BuildRequires : pypi(pdm_backend)
 [![pypi version](https://img.shields.io/pypi/v/mkdocs-autorefs.svg)](https://pypi.org/project/mkdocs-autorefs/)
 [![conda version](https://img.shields.io/conda/vn/conda-forge/mkdocs-autorefs.svg)](https://anaconda.org/conda-forge/mkdocs-autorefs)
 [![gitpod](https://img.shields.io/badge/gitpod-workspace-708FCC.svg?style=flat)](https://gitpod.io/#https://github.com/mkdocstrings/autorefs)
-[![gitter](https://badges.gitter.im/join%20chat.svg)](https://app.gitter.im/#/room/#autorefs:gitter.im)
+[![gitter](https://badges.gitter.im/join%20chat.svg)](https://app.gitter.im/#/room/#mkdocstrings/autorefs:gitter.im)
 
 %package license
 Summary: license components for the pypi-mkdocs_autorefs package.
@@ -62,10 +62,10 @@ python3 components for the pypi-mkdocs_autorefs package.
 
 
 %prep
-%setup -q -n mkdocs_autorefs-1.1.0
-cd %{_builddir}/mkdocs_autorefs-1.1.0
+%setup -q -n mkdocs_autorefs-1.2.0
+cd %{_builddir}/mkdocs_autorefs-1.2.0
 pushd ..
-cp -a mkdocs_autorefs-1.1.0 buildavx2
+cp -a mkdocs_autorefs-1.2.0 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724173199
+export SOURCE_DATE_EPOCH=1725294190
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
